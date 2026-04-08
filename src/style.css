@@ -38,6 +38,10 @@ button:hover {
   transform: scale(1.05);
   transition: 0.3s;
 }
+.active{
+    background-color: #D4A373;
+    color: white;
+}
 #content{
     margin: 1em 0em;
     box-sizing: border-box;
@@ -82,7 +86,7 @@ button:hover {
     box-shadow: 1px black;
 }
 .punchline{
-    color: #9E6B3E;
+    color: #60320e;
     font-style: italic;
     font-size: 1.25em;
     margin-top: 0.75em;
@@ -118,7 +122,7 @@ footer{
     justify-content: center;
     gap: 2em;
 }
-.items{
+.item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,9 +133,3 @@ footer{
     line-height: 1.5;
     padding:1em 5em;
 }
-/* .item{
-    width: 10em;
-    height: 10em;
-    background-image: url("./restaurant-background.jpg");
-    background-size: cover;
-} */
